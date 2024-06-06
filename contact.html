@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>beauty parlour</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <style>
+          .map-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; /* 16:9 aspect ratio (change as needed) */
+        }
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        }
+    </style>
+  </head>
+  <body>
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('photos/home.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+          	<div class="icon">
+          		<a href="index.html" class="logo">
+                <img src="photos\logo.jpg" alt="Pretty Salon Logo"width="80" height="80">
+                </a>
+          			<h1>Pretty</h1>
+          	
+          	</div>
+            <h1 class="mb-3 mt-5 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contact</h1>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><img src="photos\logo.jpg" alt="Pretty Salon Logo"width="80" height="80"></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
+	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    <section class="ftco-section ftco-appointment">
+			<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex align-items-center">
+    			<div class="col-md-2"></div>
+	    		<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+	    			<div class="appointment-info text-center p-5">
+	    				<div class="mb-4">
+	    					<h3 class="mb-3">Address</h3>
+		    				<p>Durgiperi (V&P), Yerpedu (M), Chittoor (Dist) 517619</p>
+	    				</div>
+	    				<div class="mb-4">
+		    				<h3 class="mb-3">Phone</h3>
+		    				<p class="day"><strong>+91-8143966550</strong> or <strong>+91-8143966550</strong></p>
+	    				</div>
+	    				<div>
+		    				<h3 class="mb-3">Opening Hours</h3>
+		    				<p class="day"><strong>Monday - Friday</strong></p>
+		    				<span>08:00am - 09:00pm</span>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="col-md-6 appointment pl-md-5 ftco-animate">
+	    			<h3 class="mb-3">Appointments</h3>
+	    			<form action="#" class="appointment-form">
+	            <div class="row form-group d-flex">
+	            	<div class="col-md-6">
+	            		<input type="text" class="form-control" placeholder="First Name">
+	            	</div>
+	            	<div class="col-md-6">
+	            		<input type="text" class="form-control" placeholder="Last Name">
+	            	</div>
+	            </div>
+	            <div class="row form-group d-flex">
+	            	<div class="col-md-6">
+	            		<div class="input-wrap">
+		            		<div class="icon"><span class="ion-md-calendar"></span></div>
+		            		<input type="text" id="appointment_date" class="form-control" placeholder="Date">
+	            		</div>
+	            	</div>
+	            	<div class="col-md-6">
+	            		<input type="text" class="form-control" placeholder="Phone">
+	            	</div>
+	            </div>
+	            <div class="form-group">
+	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+	            </div>
+	            <div class="form-group">
+	              <input type="submit" value="Order" class="btn btn-white btn-outline-white py-3 px-4">
+	            </div>
+	          </form>
+	    		</div>    			
+    		</div>
+    	</div>
+    </section>
+        <div class="elementor-element elementor-element-63e5dfd e-con-full e-flex e-con e-parent" data-id="63e5dfd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+          <div class="elementor-element elementor-element-f5076e9 e-con-full e-flex e-con e-child" data-id="f5076e9" data-element_type="container">
+              <div class="elementor-element elementor-element-edcaf4f elementor-widget elementor-widget-google_maps" data-id="edcaf4f" data-element_type="widget" data-widget_type="google_maps.default">
+                  <div class="elementor-widget-container">
+                      <div class="elementor-custom-embed map-container">
+                          <iframe loading="lazy" src="https://maps.google.com/maps?q=Durgiperi%20(V%26P)%2C%20Yerpedu%20(M)%2C%20Chittoor%20(Dist)%20517619%2C%20India&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Durgiperi (V&P), Yerpedu (M), Chittoor (Dist) 517619" aria-label="Durgiperi (V&P), Yerpedu (M), Chittoor (Dist) 517619"></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+   
+    <footer class="ftco-footer ftco-section img d-flex justify-content-around">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+        <div class="col-md-3">
+        <div class="ftco-footer-widget mb-4">
+        <h2 class="ftco-heading-2">About Us</h2>
+        <p>Welcome to our serene sanctuary where beauty meets relaxation. We are dedicated to providing exceptional spa services tailored to your individual needs, ensuring you leave feeling rejuvenated and revitalized.
+    </p>
+        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+          <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+          <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+          <li class="ftco-animate"><a href="https://www.instagram.com/ankam_naveenkumar01/"><span class="icon-instagram"></span></a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">Quick Links</h2>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="py-2 d-block">About</a></li>
+            <li><a href="services.html" class="py-2 d-block">Services</a></li>
+            <li><a href="work.html" class="py-2 d-block">Work</a></li>
+            <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Services</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-2 d-block">Hair Styling</a></li>
+            <li><a href="#" class="py-2 d-block">Makeup</a></li>
+            <li><a href="#" class="py-2 d-block">Facials</a></li>
+            <li><a href="#" class="py-2 d-block">Nail Care</a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Contact Us</h2>
+          <div class="block-23 mb-3">
+            <ul>
+            <li><span class="icon icon-map-marker"></span><span class="text">Durgiperi(V&P), Yerpedu (M),Chittoor(Dist) 517619</span></li>
+            <li><a href="tel:+918143966550"><span class="icon icon-phone"></span><span class="text">+91-8143966550</span></a></li>
+            <li><a href="mailto:mchandu7434@gmail.com"><span class="icon icon-envelope"></span><span class="text">mchandu7434@gmail.com</span></a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 text-center">
+          <p>
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | MAMANDURU CHANDU
+    
+          </p>
+        </div>
+        </div>
+      </div>
+      </footer>
+    
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+     <script>
+        // Initialize and display the map
+        function initMap() {
+            var mapOptions = {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8
+            };
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        }
+    </script>
+  </script>
+    
+  </body>
+</html>
